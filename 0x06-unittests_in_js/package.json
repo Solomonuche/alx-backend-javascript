@@ -1,0 +1,17 @@
+{
+  "name": "0x06-unittests_in_js",
+  "version": "1.0.0",
+  "description": "Unittests in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Solomon Nweke",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  },
+  "dependencies": {
+    "eslint": "^9.4.0"
+  }
+}
