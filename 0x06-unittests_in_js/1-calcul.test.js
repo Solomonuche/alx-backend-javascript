@@ -1,7 +1,7 @@
 const assert = require('assert');
 const calculateNumber = require('./1-calcul');
 
-describe('calculateNumber', function () {
+describe('Test for basic calculator', function () {
   describe('test addition', function () {
     it('testing with whole numbers', function () {
         assert.strictEqual(calculateNumber("SUM", 1, 3), 4);
