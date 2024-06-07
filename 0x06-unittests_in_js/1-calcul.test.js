@@ -19,15 +19,15 @@ describe('Test for basic calculator', function () {
   // Type substraction
   describe('test substration', function () {
     it('teswith whole numbers', function () {
-        assert.strictEqual(calculateNumber("SUBSTRACT", 1, 3), -2);
+        assert.strictEqual(calculateNumber("SUBTRACT", 1, 3), -2);
       }); 
       
       it('with whole and float numbers', function () {
-        assert.strictEqual(calculateNumber("SUBSTRACT", 5, 3.7), 1);
+        assert.strictEqual(calculateNumber("SUBTRACT", 5, 3.7), 1);
       }); 
     
       it('with both float numbers', function () {
-        assert.strictEqual(calculateNumber("SUBSTRACT", 1.4, 4.5), -4);
+        assert.strictEqual(calculateNumber("SUBTRACT", 1.4, 4.5), -4);
       }); 
   });
 
