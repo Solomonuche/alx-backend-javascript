@@ -4,13 +4,11 @@
   "description": "Unittests in JS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha '*.test.js'"
+    "test": "mocha *.test.js"
   },
   "author": "Solomon Nweke",
   "license": "ISC",
-  "dependencies": {
-    "chai-http": "^4.3.0",
-    "express": "^4.17.1",
-    "mocha": "^10.4.0"
+  "devDependencies": {
+    "mocha": "^6.2.2"
   }
 }
